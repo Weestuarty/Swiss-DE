@@ -2,7 +2,7 @@
 
 Swiss-DE is a theme set for ES-DE that supports all systems as well as the latest application features.
 
-![systems](sys.png)#
+![systems](system.png)#
 ![games](game.png)
 
 The following options are included:
