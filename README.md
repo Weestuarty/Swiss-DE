@@ -15,6 +15,13 @@ Solid colour Logos
 - Grid with videos
 - Grid without videos
 
+Multicolour Logos
+- Textlist with videos
+- Textlist without videos
+- Grid with videos
+- Grid without videos
+
+
 11 color schemes:
 
 - Dark mode
