@@ -1,0 +1,128 @@
+<!--
+    Theme capabilities for swiss-DE
+-->
+
+<themeCapabilities>
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+
+    <colorScheme name="dark">
+        <label>Dark mode</label>
+    </colorScheme>
+
+    <colorScheme name="light">
+        <label>Light mode</label>
+    </colorScheme>
+
+    <colorScheme name="reddark">
+        <label>Red Dark Mode</label>
+    </colorScheme>
+
+    <colorScheme name="redlight">
+        <label>Red Light Mode</label>
+    </colorScheme>
+
+    <colorScheme name="bluedark">
+        <label>Blue Dark Mode</label>
+    </colorScheme>
+
+    <colorScheme name="bluelight">
+        <label>Blue Light Mode</label>
+    </colorScheme>
+
+    <colorScheme name="greendark">
+        <label>Green Dark Mode</label>
+    </colorScheme>
+
+    <colorScheme name="greenlight">
+        <label>Green Light Mode</label>
+    </colorScheme>
+
+    <colorScheme name="yellowdark">
+        <label>Yellow Dark Mode</label>
+    </colorScheme>
+
+    <colorScheme name="yellowlight">
+        <label>Yellow Light Mode</label>
+    </colorScheme>
+
+    <colorScheme name="wsty">
+        <label>Weestuarty</label>
+    </colorScheme>
+
+    <variant name="withVideos">
+        <label>Textlist + videos Solid logo</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="withoutVideos">
+        <label>Textlist no videos Solid Logo</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="withVideosGrid">
+        <label>Grid + videos Solid Logo</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="withoutVideosGrid">
+        <label>Grid no videos Solid Logo</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="withVideoscl">
+        <label>Textlist + videos Colour logo</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="withoutVideoscl">
+        <label>Textlist no videos Colour Logo</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="withVideosGridcl">
+        <label>Grid + videos Colour Logo</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+
+    <variant name="withoutVideosGridcl">
+        <label>Grid no videos Colour Logo</label>
+        <selectable>true</selectable>
+        <override>
+            <trigger>no_game_media</trigger>
+            <useVariant>noMedia</useVariant>
+        </override>
+    </variant>
+    <variant name="noMedia">
+        <label>No game media</label>
+        <selectable>false</selectable>
+    </variant>
+</themeCapabilities>
